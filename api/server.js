@@ -20,7 +20,7 @@ server.use(
       httpOnly: false,
     },
     resave: false,
-    saveUninitialized: false,
+    saveUninitialized: false
   })
 );
 server.use(morgan("dev"));
